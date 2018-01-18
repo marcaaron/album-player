@@ -9,3 +9,5 @@ Records can be added by placing MP3s in the ''/mp3' directory and updating the '
 
 An example of the app can be found at **Heroku**:
 [https://morning-falls-45853.herokuapp.com/](https://morning-falls-45853.herokuapp.com/)
+
+copyright 2018 Marc Aaron Glasser
