@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Album Player UI</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="topbar">
+			<i class="fa fa-2x fa-step-backward"></i>
+			<i class="fa fa-2x fa-play"></i>
+			<i class="fa fa-2x fa-step-forward"></i>
+			<span class="track-text"></span>
+		</div>
+		<div id="waveform"></div>
+
+		<div class="main">
+			<div class="side-bar">
+				<span class="logo">ALBUM PLAYER</span>
+			</div>
+			<div class="player-progress"></div>
+			<div class="records">
+				<div class="record">
+					<img id="_0" src="badgyaljac.jpeg"/>
+				</div>
+				<div class="record">
+					<!-- <img id="_1" src="rareearthriddims.png"/> -->
+				</div>
+				<div class="record">
+					<!-- <img id="_2" src="trance-plants.png"/> -->
+				</div>
+				<div class="record"></div>
+				<div class="record"></div>
+				<div class="record"></div>
+				<div class="record"></div>
+				<div class="record"></div>
+				<div class="record"></div>
+			</div>
+		</div>
+
+		<div class="playlist-card-container">
+			<div class="playlist-topbar">
+				<div class="burger">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+			<div class="playlist-main">
+				<h1 class="album"></h1>
+				<img class="cover-art"/>
+				<ul class="track-box">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<script src="wavesurfer.min.js"></script>
+<script src="recordsList.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
